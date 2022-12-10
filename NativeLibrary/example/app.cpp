@@ -1,12 +1,8 @@
 #include "../greeter/greeter.h"
 
-using namespace NativeLibrary;
-
 int main()
 {
-    Greeter greeter;
-
-    greeter.Greet();
+    Greet();
 
     return 0;
 }

@@ -3,18 +3,7 @@
 
 using namespace std;
 
-namespace NativeLibrary
+void Greet()
 {
-    Greeter::Greeter(/* args */)
-    {
-    }
-
-    Greeter::~Greeter()
-    {
-    }
-
-    void Greeter::Greet()
-    {
-        cout << "Hello, world!" << endl;
-    }
+    cout << "Hello, world! from NativeLibrary" << endl;
 }
