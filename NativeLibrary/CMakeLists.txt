@@ -15,5 +15,7 @@ add_executable(app)
 target_sources(app PRIVATE "example/app.cpp")
 target_link_libraries(app PRIVATE native)
 
+set(CMAKE_BINARY_DIR  "../../bin")
+
 install(TARGETS native 
         FILE_SET HEADERS)
