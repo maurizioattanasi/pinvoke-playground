@@ -1,5 +1,5 @@
 target_sources(native 
-    PRIVATE greeter.cpp 
+    PRIVATE calculator.cpp strings.cpp
     PUBLIC FILE_SET HEADERS 
     BASE_DIRS ${PROJECT_SOURCE_DIR}
-    FILES greeter.h )
+    FILES calculator.h strings.h)
