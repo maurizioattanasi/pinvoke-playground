@@ -10,6 +10,7 @@ add_library(native SHARED)
 target_include_directories(native PRIVATE "$PROJECT_SOURCE_DIR")
 
 add_subdirectory("greeter")
+add_subdirectory("PrimitiveMarshaling")
 
 add_executable(app)
 target_sources(app PRIVATE "example/app.cpp")
